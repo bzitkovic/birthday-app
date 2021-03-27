@@ -1,0 +1,11 @@
+F:\coding\birthday\Birthdays\BirthdayLibrary\bin\Debug\BirthdayLibrary.dll.config
+F:\coding\birthday\Birthdays\BirthdayLibrary\bin\Debug\BirthdayLibrary.dll
+F:\coding\birthday\Birthdays\BirthdayLibrary\bin\Debug\BirthdayLibrary.pdb
+F:\coding\birthday\Birthdays\BirthdayLibrary\bin\Debug\EntityFramework.dll
+F:\coding\birthday\Birthdays\BirthdayLibrary\bin\Debug\EntityFramework.SqlServer.dll
+F:\coding\birthday\Birthdays\BirthdayLibrary\bin\Debug\EntityFramework.xml
+F:\coding\birthday\Birthdays\BirthdayLibrary\bin\Debug\EntityFramework.SqlServer.xml
+F:\coding\birthday\Birthdays\BirthdayLibrary\obj\Debug\BirthdayLibrary.csprojAssemblyReference.cache
+F:\coding\birthday\Birthdays\BirthdayLibrary\obj\Debug\BirthdayLibrary.csproj.CopyComplete
+F:\coding\birthday\Birthdays\BirthdayLibrary\obj\Debug\BirthdayLibrary.dll
+F:\coding\birthday\Birthdays\BirthdayLibrary\obj\Debug\BirthdayLibrary.pdb

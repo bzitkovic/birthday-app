@@ -107,9 +107,13 @@ namespace Birthdays
 
             dgvBirthdays.DataSource = GlobalConfig.Birthday.FilterBirthdaysByMonth(month);
 
-            dgvBirthdays.Columns["Id"].Visible = false;
-            dgvBirthdays.Columns["User"].Visible = false;
-            dgvBirthdays.Columns["User_Id"].Visible = false;
+            if (dgvBirthdays.RowCount != 0)
+            {
+                dgvBirthdays.Columns["Id"].Visible = false;
+                dgvBirthdays.Columns["User"].Visible = false;
+                dgvBirthdays.Columns["User_Id"].Visible = false;
+            }
+            
         }
     }
 }

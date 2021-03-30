@@ -44,7 +44,7 @@
             this.btnLogin.Location = new System.Drawing.Point(73, 233);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(174, 39);
-            this.btnLogin.TabIndex = 0;
+            this.btnLogin.TabIndex = 4;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
@@ -63,7 +63,7 @@
             this.lblUsername.Location = new System.Drawing.Point(73, 65);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(84, 18);
-            this.lblUsername.TabIndex = 2;
+            this.lblUsername.TabIndex = 0;
             this.lblUsername.Text = "Username:";
             // 
             // txtPasword
@@ -71,7 +71,7 @@
             this.txtPasword.Location = new System.Drawing.Point(73, 187);
             this.txtPasword.Name = "txtPasword";
             this.txtPasword.Size = new System.Drawing.Size(174, 26);
-            this.txtPasword.TabIndex = 1;
+            this.txtPasword.TabIndex = 3;
             // 
             // lblPassword
             // 
@@ -89,7 +89,7 @@
             this.btnRegister.Location = new System.Drawing.Point(73, 292);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(174, 39);
-            this.btnRegister.TabIndex = 0;
+            this.btnRegister.TabIndex = 5;
             this.btnRegister.Text = "Register";
             this.btnRegister.UseVisualStyleBackColor = false;
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);

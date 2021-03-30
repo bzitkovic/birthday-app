@@ -77,6 +77,9 @@ namespace BirthdayLibrary
                 case "December":
                     monthNumber = 12;
                     break;
+                case "Search all":
+                    monthNumber = 13;
+                    break;
                 default:
                     monthNumber = 0;
                     break;
@@ -88,10 +91,14 @@ namespace BirthdayLibrary
                             where b.Date_Of_Birthday.Month == monthNumber
                             select b;
 
-                if(query.Count() == 0)
+                if (monthNumber == 13)
                 {
                     return context.Birthdays.ToList();
                 }
+                else if (query.Count() == 0)
+                {
+                    return null;
+                }              
                 else
                 {
                     return query.ToList();

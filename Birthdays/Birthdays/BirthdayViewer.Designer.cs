@@ -55,7 +55,7 @@
             this.dgvBirthdays.Location = new System.Drawing.Point(16, 55);
             this.dgvBirthdays.Name = "dgvBirthdays";
             this.dgvBirthdays.Size = new System.Drawing.Size(549, 208);
-            this.dgvBirthdays.TabIndex = 1;
+            this.dgvBirthdays.TabIndex = 3;
             // 
             // btnAddNew
             // 
@@ -64,7 +64,7 @@
             this.btnAddNew.Location = new System.Drawing.Point(412, 270);
             this.btnAddNew.Name = "btnAddNew";
             this.btnAddNew.Size = new System.Drawing.Size(153, 39);
-            this.btnAddNew.TabIndex = 2;
+            this.btnAddNew.TabIndex = 6;
             this.btnAddNew.Text = "Add new";
             this.btnAddNew.UseVisualStyleBackColor = false;
             this.btnAddNew.Click += new System.EventHandler(this.btnAddNew_Click);
@@ -76,7 +76,7 @@
             this.btnUpdate.Location = new System.Drawing.Point(253, 270);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(153, 39);
-            this.btnUpdate.TabIndex = 2;
+            this.btnUpdate.TabIndex = 5;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = false;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
@@ -87,7 +87,7 @@
             this.cmbMonth.Location = new System.Drawing.Point(412, 20);
             this.cmbMonth.Name = "cmbMonth";
             this.cmbMonth.Size = new System.Drawing.Size(153, 26);
-            this.cmbMonth.TabIndex = 3;
+            this.cmbMonth.TabIndex = 2;
             this.cmbMonth.SelectedIndexChanged += new System.EventHandler(this.cmbMonth_SelectedIndexChanged);
             // 
             // lblMonth
@@ -96,7 +96,7 @@
             this.lblMonth.Location = new System.Drawing.Point(278, 23);
             this.lblMonth.Name = "lblMonth";
             this.lblMonth.Size = new System.Drawing.Size(128, 18);
-            this.lblMonth.TabIndex = 0;
+            this.lblMonth.TabIndex = 1;
             this.lblMonth.Text = "Search by month:";
             // 
             // btnDelete
@@ -106,7 +106,7 @@
             this.btnDelete.Location = new System.Drawing.Point(94, 270);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(153, 39);
-            this.btnDelete.TabIndex = 2;
+            this.btnDelete.TabIndex = 4;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);

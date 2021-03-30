@@ -46,7 +46,7 @@
             this.lblSurname.Location = new System.Drawing.Point(46, 104);
             this.lblSurname.Name = "lblSurname";
             this.lblSurname.Size = new System.Drawing.Size(75, 18);
-            this.lblSurname.TabIndex = 12;
+            this.lblSurname.TabIndex = 2;
             this.lblSurname.Text = "Surname:";
             // 
             // lblName
@@ -55,7 +55,7 @@
             this.lblName.Location = new System.Drawing.Point(46, 24);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(54, 18);
-            this.lblName.TabIndex = 13;
+            this.lblName.TabIndex = 0;
             this.lblName.Text = "Name:";
             // 
             // txtSurname
@@ -63,14 +63,14 @@
             this.txtSurname.Location = new System.Drawing.Point(49, 140);
             this.txtSurname.Name = "txtSurname";
             this.txtSurname.Size = new System.Drawing.Size(208, 26);
-            this.txtSurname.TabIndex = 10;
+            this.txtSurname.TabIndex = 3;
             // 
             // txtName
             // 
             this.txtName.Location = new System.Drawing.Point(49, 60);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(208, 26);
-            this.txtName.TabIndex = 11;
+            this.txtName.TabIndex = 1;
             // 
             // btnCreateBirthday
             // 
@@ -79,7 +79,7 @@
             this.btnCreateBirthday.Location = new System.Drawing.Point(49, 414);
             this.btnCreateBirthday.Name = "btnCreateBirthday";
             this.btnCreateBirthday.Size = new System.Drawing.Size(208, 39);
-            this.btnCreateBirthday.TabIndex = 9;
+            this.btnCreateBirthday.TabIndex = 8;
             this.btnCreateBirthday.Text = "Create";
             this.btnCreateBirthday.UseVisualStyleBackColor = false;
             this.btnCreateBirthday.Click += new System.EventHandler(this.btnCreateBirthday_Click);
@@ -89,7 +89,7 @@
             this.dtpBirthDay.Location = new System.Drawing.Point(49, 220);
             this.dtpBirthDay.Name = "dtpBirthDay";
             this.dtpBirthDay.Size = new System.Drawing.Size(208, 26);
-            this.dtpBirthDay.TabIndex = 14;
+            this.dtpBirthDay.TabIndex = 5;
             // 
             // label1
             // 
@@ -97,7 +97,7 @@
             this.label1.Location = new System.Drawing.Point(46, 184);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(97, 18);
-            this.label1.TabIndex = 12;
+            this.label1.TabIndex = 4;
             this.label1.Text = "Date of birth:";
             // 
             // rTxtRemark
@@ -105,7 +105,7 @@
             this.rTxtRemark.Location = new System.Drawing.Point(49, 300);
             this.rTxtRemark.Name = "rTxtRemark";
             this.rTxtRemark.Size = new System.Drawing.Size(208, 96);
-            this.rTxtRemark.TabIndex = 15;
+            this.rTxtRemark.TabIndex = 7;
             this.rTxtRemark.Text = "";
             // 
             // label2
@@ -114,7 +114,7 @@
             this.label2.Location = new System.Drawing.Point(46, 264);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 18);
-            this.label2.TabIndex = 12;
+            this.label2.TabIndex = 6;
             this.label2.Text = "Remark:";
             // 
             // NewBirthday
